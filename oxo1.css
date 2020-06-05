@@ -1,0 +1,71 @@
+body{
+    font-size: 16px;
+    background-color: rgb(179, 228, 235); 
+}
+.corps{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    word-wrap: break-word;
+}
+.droite{
+    background-color: rgb(124, 124, 53);
+    width:30%;
+}
+.gauche{
+    background-color: rgb(179, 228, 235);
+    width:70%;
+}
+.page{
+    max-width: 100%;
+    border: 1px solid white;
+    box-shadow: 1px 0px black;
+}
+.langues{
+    text-decoration: underline;
+}
+.informatique{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1280px)
+{
+ .page{
+     font-size: 10px;
+     max-width: 100%;
+ }
+ .tof{
+     width: 80px;
+     height: 80px;
+ }
+ h1{
+     font-size: 16px;
+ }
+ h2{
+     font-size: 14px;
+ }
+ .droite{
+    background-color: rgb(43, 156, 109);
+    width:40%;
+}
+.gauche{
+    background-color: rgb(97, 136, 141);
+    width:60%;
+}
+}
+.photo{
+    width: 150px;
+    height: 180px;
+    border: 100px;
+
+}
+h2{
+    border-bottom: 2px solid rgb(17, 172, 211);
+    color: rgb(17, 172, 211);
+}
+h3{
+    color: rgb(17, 172, 211); 
+}
+.index{
+    color: rgb(17, 172, 211); 
+}
